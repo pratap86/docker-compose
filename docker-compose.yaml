@@ -74,7 +74,7 @@ services:
       - rabbitmq
 
   rabbitmq:
-    image: rabbitmq:3.8.11-management
+    image: rabbitmq:3.9.8-management
     mem_limit: 300m
     ports:
       - "5672:5672"
